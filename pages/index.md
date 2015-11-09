@@ -34,4 +34,6 @@ There are a few pages you may be interested in:
 
   * [Project cost calculator](/calculator.html)
 
+  * [Our full portfolio](/portfolio.html)
+
 Let us know if any questions: [dev@teamed.io](mailto:dev@teamed.io).
