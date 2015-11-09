@@ -14,7 +14,6 @@
  */
 
 @import 'defs';
-@import 'fonts';
 
 input::-webkit-input-placeholder {
   color: darken($red,20);
@@ -28,7 +27,7 @@ input::-ms-input-placeholder {
 input, button, textarea {
   border-radius: 5px;
   display: inline;
-  font-family: $fira;
+  font-family: $sanserif;
   padding: .5em 1em;
   margin: .2 * $em 0;
   font-size: $em;
