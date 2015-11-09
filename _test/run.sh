@@ -1,10 +1,8 @@
 #!/bin/bash
-set -e
 
 DIR=$(dirname $0)
 PORT=4000
-jekyll serve --port=$PORT --host=localhost "--source=$DIR/.." &
-PID=$!
+jekyll serve --port=$PORT --host=localhost "--source=$DIR/.." & PID=$!
 echo "Jekyll started, PID: ${PID}"
 while true; do
   curl --silent --head http://localhost:$PORT > /dev/null; ERROR=$?
