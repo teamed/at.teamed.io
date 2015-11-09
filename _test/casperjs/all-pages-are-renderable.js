@@ -2,7 +2,6 @@
 [
     '/policy.html',
     '/faq.html',
-    '/sitemap.xml',
     '/index.html',
     '/css/layout.css',
     '/robots.txt'
