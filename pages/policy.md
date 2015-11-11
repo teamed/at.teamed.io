@@ -28,6 +28,8 @@ These articles are mandatory for everybody to read:
  * [No Obligations](http://www.yegor256.com/2014/04/13/no-obligations-principle.html)
  * [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html)
  * [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html)
+ * [How to Cut Corners and Stay Cool](http://www.yegor256.com/2015/01/15/how-to-cut-corners.html)
+ * [It's Not a School!](http://www.yegor256.com/2015/02/16/it-is-not-a-school.html)
  * [Project Lifecycle in Teamed.io](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html)
 
 {% par 1 %}
