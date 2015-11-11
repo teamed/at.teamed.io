@@ -283,6 +283,6 @@ your quality review. When you give a "good" mark, the performer gets a
 bonus. If you give an "acceptable" mark, the performer doesn't get a bonus. When
 you give a "bad" mark, the performer is not paid for the ticket.
 
-If you have any suggestions concerning this policy, please submit a request
-on [Netbout.com](http://www.netbout.com). If you have a correction, please
-submit a [pull request](https://github.com/teamed/teamed.io).
+If you have any suggestions concerning this policy, please submit a ticket
+to [XDSD repo](https://github.com/teamed/xdsd). If you have a correction, please
+submit a [pull request](https://github.com/teamed/at.teamed.io).
