@@ -39,7 +39,8 @@ way as all other tasks, but the projects are open source and hosted in GitHub.
 
 {% par 2 %}
 Once we see that you're capable of working on a commercial project,
-we'll electronically sign a formal [contract](/engineer.pdf) with you and invite you to
+we'll electronically sign a formal
+[contract](http://www.teamed.io/engineer.pdf) with you and invite you to
 a few commercial projects.
 
 {% par 3 %}
