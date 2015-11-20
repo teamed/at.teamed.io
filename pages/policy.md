@@ -32,6 +32,9 @@ These articles are mandatory for everybody to read:
  * [It's Not a School!](http://www.yegor256.com/2015/02/16/it-is-not-a-school.html)
  * [Project Lifecycle in Teamed.io](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html)
 
+Note: paragraphs are numbered, but not ordered &mdash; this is
+done intentionally.
+
 {% par 1 %}
 When we start working with you, you'll get a few tasks in a few of our
 [campus projects](/campus.html). They are paid, managed, and rated the same
