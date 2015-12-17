@@ -13,7 +13,39 @@ keywords:
   - hire a programmer
 ---
 
-Please fill out this form if you want to work with us.
+If you're passionate about software development
+and quality, we want to work with you. You should know,
+though, that our [coding standards](http://www.yegor256.com/2014/08/13/strict-code-quality-control.html)
+are unexpectedly high for most newcomers. Moreover, our work model
+[differs](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html)
+from anything you've probably seen before. But you
+shouldn’t be scared &mdash; just be ready to improve :)
+
+We offer flexible, part-time work you can perform
+from anywhere. In most cases, we expect you to spend up
+to 10 hours per week blending our projects into your other full-time work.
+
+Our projects are both challenging and interesting. You
+will solve difficult problems, work with cutting-edge technologies,
+and collaborate with skilled professionals. There are no
+routine or boring tasks here.
+
+You should expect to work on small, well-defined tasks
+(usually 30 minutes each) personally selected to fit your
+skills and experience. We even [encourage](http://www.yegor256.com/2014/04/13/no-obligations-principle.html)
+our developers to reject
+tasks if they don't feel like they're a good fit.
+
+We pay you immediately after a task is completed, either
+through [Upwork](http://www.upwork.com), [PayPal](http://www.paypal.com),
+or [Bitcoins](https://bitcoin.org/en/),
+according to the budget allocated for the task multiplied by your hourly rate.
+Say, for example, that your rate is [$50 per hour](http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html)
+and the task budget is 30 minutes.
+You will get $25 immediately after the task is completed. Here is a
+[sample](/engineer.pdf) of our contract.
+
+Please fill out this form if you want to try.
 
 <form name="form" name="form" id="form" ng-submit="submit('#form');">
   <p>
