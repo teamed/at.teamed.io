@@ -23,7 +23,7 @@ aspects of this process.
 
 You can reach us by phone, email or just visit us in
 California, but the best way is to fill a short online
-form [here](http://www.teamed.io). When you click "submit",
+form [here](http://www.teamed.io/index.html#quote). When you click "submit",
 you will be forwarded to [Netbout](http://www.netbout.com),
 a platform where we communicate with programmers and clients.
 
