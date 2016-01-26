@@ -40,7 +40,7 @@ var email = function(form, email) {
     before = $form.text(),
     text = '';
   $button.prop('disabled', true).text('processing...');
-  email = typeof email !== 'undefined' ? email : 'hire@teamed.io';
+  email = typeof email !== 'undefined' ? email : 'join@teamed.io';
   $form.find('input,textarea').each(
     function() {
       var $i = $(this);
