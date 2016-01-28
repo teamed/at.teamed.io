@@ -50,7 +50,7 @@ Please fill out this form if you want to try.
 <form name="form" name="form" id="form" ng-submit="submit('#form');">
   <p>
     <label>Your full name</label><br/>
-    <input name="name" style="width:12em" tabindex="1"
+    <input name="name" style="width:17em" tabindex="1"
       maxlength="100" ng-model="name" required/>
   </p>
   <p>
@@ -83,7 +83,7 @@ Please fill out this form if you want to try.
   </p>
   <p>
     <label>Country</label><br/>
-    <input name="country" style="width:9em" tabindex="5"
+    <input name="country" style="width:11em" tabindex="5"
       pattern="[a-zA-Z ]+" placeholder="[a-zA-Z ]+"
       maxlength="50" ng-model="country" required/>
   </p>
@@ -101,14 +101,14 @@ Please fill out this form if you want to try.
     <label><a href="https://github.com">GitHub</a> account name</label><br/>
     <input name="github" type="text" tabindex="8"
       placeholder="[a-zA-Z0-9\-]+" pattern="[a-zA-Z0-9\-]+"
-      style="width:11em" maxlength="50" ng-model="github" required/><br/>
+      style="width:13em" maxlength="50" ng-model="github" required/><br/>
     <span class="help">As <a href="http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html">this article</a> explains,
     we exclusively use GitHub tickets to communicate in a project; no
     emails, chats, meetings, or phone calls.</span>
   </p>
   <p>
     <label><a href="http://www.netbout.com">Netbout</a> account name</label><br/>
-    <input name="netbout" style="width:11em" tabindex="9"
+    <input name="netbout" style="width:13em" tabindex="9"
       placeholder="[a-zA-Z0-9]+" pattern="[a-zA-Z0-9]+"
       maxlength="50" ng-model="netbout" required/><br/>
     <span class="help">We use Netbout for non-project discussions
@@ -149,7 +149,7 @@ Please fill out this form if you want to try.
   </p>
   <p>
     <label>Tell us briefly about yourself</label><br/>
-    <textarea name="info" style="width:21em;height:4em" tabindex="12"
+    <textarea name="info" style="width:100%;height:4em" tabindex="12"
       ng-model="info" required></textarea><br/>
     <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
     and explain briefly why you think you're better than
