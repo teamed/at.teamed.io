@@ -161,7 +161,7 @@ Please fill out this form if you want to try.
   </p>
   <p>
     <label>How did you find us?</label><br/>
-    <input name="ref" style="width:9em" tabindex="13"
+    <input name="ref" style="width:11em" tabindex="13"
       maxlength="200" ng-model="ref" required/><br/>
     <span class="help">If you have a reference code, post it
       here and the person who gave it to you will receive a bonus
