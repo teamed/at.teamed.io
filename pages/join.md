@@ -58,7 +58,7 @@ Please fill out this form if you want to try.
     <label>Hourly rate (in U.S. dollars)</label>
     <br/>
     <input name="rate" type="number" tabindex="2"
-      style="width:5em" maxlength="10" ng-model="rate" required/><br/>
+      style="width:5em" ng-model="rate" required/><br/>
     <span class="help">Keep this article in mind:
     <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a>
     If your rate is lower than $20 per hour, don't bother; we most
@@ -145,9 +145,9 @@ Please fill out this form if you want to try.
     <input name="wallet" style="width:13em" tabindex="11"
       maxlength="100" ng-model="wallet" required/><br/>
     <span style="float:right">
-      <img src="/images/wallet/paypal.png" style="width:50px;height:50px;"/>
-      <img src="/images/wallet/bitcoin.png" style="width:50px;height:50px;"/>
-      <img src="/images/wallet/upwork.png" style="width:50px;height:50px;"/>
+      <img src="/images/wallet/paypal.png" style="width:50px;height:50px;" alt="PayPal logo"/>
+      <img src="/images/wallet/bitcoin.png" style="width:50px;height:50px;" alt="Bitcoin logo"/>
+      <img src="/images/wallet/upwork.png" style="width:50px;height:50px;" alt="Upwork logo"/>
     </span>
     <span class="help">There are three options at the moment:
     <a href="http://www.paypal.com">PayPal</a>,
