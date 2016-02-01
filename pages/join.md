@@ -49,12 +49,14 @@ Please fill out this form if you want to try.
 
 <form name="form" name="form" id="form" ng-submit="submit('#form');">
   <p>
-    <label>Your full name</label><br/>
+    <label>Your full name</label>
+    <br/>
     <input name="name" style="width:17em" tabindex="1"
       maxlength="100" ng-model="name" required/>
   </p>
   <p>
-    <label>Hourly rate (in U.S. dollars)</label><br/>
+    <label>Hourly rate (in U.S. dollars)</label>
+    <br/>
     <input name="rate" type="number" tabindex="2"
       style="width:5em" maxlength="10" ng-model="rate" required/><br/>
     <span class="help">Keep this article in mind:
@@ -63,7 +65,8 @@ Please fill out this form if you want to try.
     likely won't accept you.</span>
   </p>
   <p>
-    <label>Skills</label><br/>
+    <label>Skills</label>
+    <br/>
     <input name="skills" tabindex="3"
       pattern="([0-9A-Za-z+\- ]+,?)+" placeholder="([0-9A-Za-z+\- ]+,?)+"
       style="width:16em" maxlength="150" ng-model="skills" required/><br/>
@@ -71,7 +74,8 @@ Please fill out this form if you want to try.
     "Java, C++" or "UML." No more than three, please.</span>
   </p>
   <p>
-    <label>Phone number</label><br/>
+    <label>Phone number</label>
+    <br/>
     <input name="phone" style="width:10em" tabindex="4"
       pattern="[0-9.\-+ ]+" placeholder="[0-9.\-+ ]+"
       maxlength="20" ng-model="phone" required/><br/>
@@ -82,23 +86,27 @@ Please fill out this form if you want to try.
     call or mail you.</span>
   </p>
   <p>
-    <label>Country</label><br/>
+    <label>Country</label>
+    <br/>
     <input name="country" style="width:11em" tabindex="5"
       pattern="[a-zA-Z ]+" placeholder="[a-zA-Z ]+"
       maxlength="50" ng-model="country" required/>
   </p>
   <p>
-    <label>Postal address</label><br/>
+    <label>Postal address</label>
+    <br/>
     <input name="address" style="width:20em" tabindex="6"
       maxlength="150" ng-model="address" required/>
   </p>
   <p>
-    <label>Email</label><br/>
+    <label>Email</label>
+    <br/>
     <input name="email" type="email" tabindex="7"
       style="width:17em" maxlength="100" ng-model="email" required/>
   </p>
   <p>
-    <label><a href="https://github.com">GitHub</a> account name</label><br/>
+    <label><a href="https://github.com">GitHub</a> account name</label>
+    <br/>
     <input name="github" type="text" tabindex="8"
       placeholder="[a-zA-Z0-9\-]+" pattern="[a-zA-Z0-9\-]+"
       style="width:13em" maxlength="50" ng-model="github" required/><br/>
@@ -107,7 +115,8 @@ Please fill out this form if you want to try.
     emails, chats, meetings, or phone calls.</span>
   </p>
   <p>
-    <label><a href="http://www.netbout.com">Netbout</a> account name</label><br/>
+    <label><a href="http://www.netbout.com">Netbout</a> account name</label>
+    <br/>
     <input name="netbout" style="width:13em" tabindex="9"
       placeholder="[a-zA-Z0-9]+" pattern="[a-zA-Z0-9]+"
       maxlength="50" ng-model="netbout" required/><br/>
@@ -119,7 +128,8 @@ Please fill out this form if you want to try.
     there to stay tuned for updates.</span>
   </p>
   <p>
-    <label>Your personality code<br/>
+    <label>Your personality code</label>
+    <br/>
     <input name="personality" style="width:9em" tabindex="10"
       placeholder="[a-zA-Z\-]+" pattern="[a-zA-Z\-]+"
       maxlength="8" ng-model="personality" required/><br/>
@@ -130,7 +140,8 @@ Please fill out this form if you want to try.
       want to know you better.</span>
   </p>
   <p>
-    <label>How do we pay you?</label><br/>
+    <label>How do we pay you?</label>
+    <br/>
     <input name="wallet" style="width:13em" tabindex="11"
       maxlength="100" ng-model="wallet" required/><br/>
     <span style="float:right">
@@ -148,7 +159,8 @@ Please fill out this form if you want to try.
     If you want to use Upwork, provide us a link to your Upwork profile.</span>
   </p>
   <p>
-    <label>Tell us briefly about yourself</label><br/>
+    <label>Tell us briefly about yourself</label>
+    <br/>
     <textarea name="info" style="width:100%;height:4em" tabindex="12"
       ng-model="info" required></textarea><br/>
     <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
@@ -160,7 +172,8 @@ Please fill out this form if you want to try.
     to it right here.</span>
   </p>
   <p>
-    <label>How did you find us?</label><br/>
+    <label>How did you find us?</label>
+    <br/>
     <input name="ref" style="width:11em" tabindex="13"
       maxlength="200" ng-model="ref" required/><br/>
     <span class="help">If you have a reference code, post it
