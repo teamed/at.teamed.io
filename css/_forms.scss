@@ -24,7 +24,9 @@ input::-moz-placeholder {
 input::-ms-input-placeholder {
   color: darken($red,20);
 }
-input, button, textarea {
+input,
+button,
+textarea {
   border-radius: 5px;
   display: inline;
   font-family: $monospace;
@@ -35,8 +37,12 @@ input, button, textarea {
   @media all and (max-width: 300px) {
     width: 100%;
   }
+  &:focus {
+    outline: none;
+  }
 }
-input, textarea {
+input,
+textarea {
   width: 280px;
   background-color: darken($beige,10);
   color: darken($brown,20);
