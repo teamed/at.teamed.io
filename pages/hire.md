@@ -21,7 +21,7 @@ and provide an estimate within 24 hours.
   <p>
     <label>What your project is about?</label>
     <br/>
-    <textarea name="info" style="width:100%;height:9em" tabindex="12"
+    <textarea name="info" style="width:100%;height:9em" tabindex="1"
       data-ng-model="info" required></textarea><br/>
     <span class="help">Please, tell us briefly about your business case,
       expected stack of technologies, current situation with
@@ -35,7 +35,7 @@ and provide an estimate within 24 hours.
     <span class="help">Give us either a phone number or an email.</span>
   </p>
   <p>
-    <button id='submit' tabindex="14">Submit</button>
+    <button id='submit' tabindex="3">Submit</button>
     via
     <img src="/images/netbout-logo.jpg" alt="netbout"
       style="vertical-align:middle;width:100px;height:22px;"/>
