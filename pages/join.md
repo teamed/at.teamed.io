@@ -47,7 +47,7 @@ You will get $25 immediately after the task is completed. Here is a
 
 Please fill out this form if you want to try.
 
-<form name="form" name="form" id="form" data-ng-submit="submit('#form');">
+<form name="form" id="form" data-ng-submit="submit('#form');">
   <p>
     <label>Your full name</label>
     <br/>
