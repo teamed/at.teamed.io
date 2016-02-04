@@ -18,6 +18,8 @@ There are a few pages you may be interested in:
 
   * [Work with us, as engineer](/join.html)
 
+  * [Hire us, for your project](/hire.html)
+
   * [Open jobs](/jobs.html)
 
   * [Our work policy](/policy.html)
