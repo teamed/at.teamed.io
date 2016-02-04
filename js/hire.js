@@ -13,9 +13,9 @@ angular.module('teamed', []).controller(
           + $scope.contact,
         url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
-          + '&invite=bobby&invite=yegor256&rename='
-          + encodeURIComponent('new estimate')
-          + '&post=' + encodeURIComponent('@bobby estimate');
+          + '&invite=apetko&invite=yegor256&rename='
+          + encodeURIComponent('new project')
+          + '&post=' + encodeURIComponent('@apetko estimate');
         window.location = url;
       };
     }
