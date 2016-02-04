@@ -38,4 +38,4 @@ There are a few pages you may be interested in:
 
   * [Our full portfolio](/portfolio.html)
 
-Let us know if any questions: [dev@teamed.io](mailto:dev@teamed.io).
+Let us know if any questions: [hire@teamed.io](mailto:hire@teamed.io).
