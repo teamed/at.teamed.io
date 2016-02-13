@@ -189,7 +189,8 @@ Please fill out this form if you want to try.
     <span class="help">Right after you click this button, we'll create a new
     conversation in Netbout. One of us will reply to you
     within 24 hours. Keep in mind that we reject over 80 percent of
-    applications.</span>
+    applications. By clicking this button you accept terms and
+    conditions expressed in <a href="/engineer.pdf">this document</a>.</span>
   </p>
 </form>
 
