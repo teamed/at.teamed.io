@@ -17,12 +17,13 @@ keywords:
 Please fill out this form. We will analyze your information
 and provide an estimate within 24 hours.
 
-<form name="form" id="form" data-ng-submit="submit('#form');">
+<form name="form" id="form" data-ng-submit="form.$valid &amp;&amp; submit('#form');">
   <p>
     <label>What your project is about?</label>
     <br/>
     <textarea name="info" style="width:100%;height:9em" tabindex="1"
-      data-ng-model="info" required></textarea><br/>
+      data-ng-required="true" required="true"
+      data-ng-model="info"></textarea><br/>
     <span class="help">Please, tell us briefly about your business case,
       expected stack of technologies, current situation with
       the source code (if it exists), and your quality and time expectations.</span>
@@ -31,7 +32,8 @@ and provide an estimate within 24 hours.
     <label>How should we contact you?</label>
     <br/>
     <input name="contact" type="text" tabindex="2"
-      style="width:25em" data-ng-model="contact" required/><br/>
+      data-ng-required="true" required="true"
+      style="width:25em" data-ng-model="contact"/><br/>
     <span class="help">Give us either a phone number or an email.</span>
   </p>
   <p>

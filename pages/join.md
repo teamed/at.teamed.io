@@ -47,18 +47,20 @@ You will get $25 immediately after the task is completed. Here is a
 
 Please fill out this form if you want to try.
 
-<form name="form" id="form" data-ng-submit="submit('#form');">
+<form name="form" id="form" data-ng-submit="form.$valid &amp;&amp; submit('#form');">
   <p>
     <label>Your full name</label>
     <br/>
     <input name="name" style="width:17em" tabindex="1"
-      maxlength="100" data-ng-model="name" required/>
+      data-ng-required="true" required="true"
+      maxlength="100" data-ng-model="name"/>
   </p>
   <p>
     <label>Hourly rate (in U.S. dollars)</label>
     <br/>
     <input name="rate" type="number" tabindex="2"
-      style="width:5em" data-ng-model="rate" required/><br/>
+      data-ng-required="true" required="true"
+      style="width:5em" data-ng-model="rate"/><br/>
     <span class="help">Keep this article in mind:
     <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a>
     If your rate is lower than $20 per hour, don't bother; we most
@@ -68,8 +70,9 @@ Please fill out this form if you want to try.
     <label>Skills</label>
     <br/>
     <input name="skills" tabindex="3"
+      data-ng-required="true" required="true"
       pattern="([0-9A-Za-z+\- ]+,?)+" placeholder="([0-9A-Za-z+\- ]+,?)+"
-      style="width:16em" maxlength="150" data-ng-model="skills" required/><br/>
+      style="width:16em" maxlength="150" data-ng-model="skills"/><br/>
     <span class="help">Comma-separated list of skills you're good at; for example,
     "Java, C++" or "UML." No more than three, please.</span>
   </p>
@@ -77,8 +80,9 @@ Please fill out this form if you want to try.
     <label>Phone number</label>
     <br/>
     <input name="phone" style="width:10em" tabindex="4"
+      data-ng-required="true" required="true"
       pattern="[0-9.\-+ ]+" placeholder="[0-9.\-+ ]+"
-      maxlength="20" data-ng-model="phone" required/><br/>
+      maxlength="20" data-ng-model="phone"/><br/>
     <span class="help">Our customers require us to collect this information
     from all our engineers, programmers, testers, DevOps, etc. We have
     to know who we're working with in order to guarantee our clients
@@ -89,27 +93,31 @@ Please fill out this form if you want to try.
     <label>Country</label>
     <br/>
     <input name="country" style="width:11em" tabindex="5"
+      data-ng-required="true" required="true"
       pattern="[a-zA-Z ]+" placeholder="[a-zA-Z ]+"
-      maxlength="50" data-ng-model="country" required/>
+      maxlength="50" data-ng-model="country"/>
   </p>
   <p>
     <label>Postal address</label>
     <br/>
     <input name="address" style="width:20em" tabindex="6"
-      maxlength="150" data-ng-model="address" required/>
+      data-ng-required="true" required="true"
+      maxlength="150" data-ng-model="address"/>
   </p>
   <p>
     <label>Email</label>
     <br/>
     <input name="email" type="email" tabindex="7"
-      style="width:17em" maxlength="100" data-ng-model="email" required/>
+      data-ng-required="true" required="true"
+      style="width:17em" maxlength="100" data-ng-model="email"/>
   </p>
   <p>
     <label><a href="https://github.com">GitHub</a> account name</label>
     <br/>
     <input name="github" type="text" tabindex="8"
+      data-ng-required="true" required="true"
       placeholder="[a-zA-Z0-9\-]+" pattern="[a-zA-Z0-9\-]+"
-      style="width:13em" maxlength="50" data-ng-model="github" required/><br/>
+      style="width:13em" maxlength="50" data-ng-model="github"/><br/>
     <span class="help">As <a href="http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html">this article</a> explains,
     we exclusively use GitHub tickets to communicate in a project; no
     emails, chats, meetings, or phone calls.</span>
@@ -118,8 +126,9 @@ Please fill out this form if you want to try.
     <label><a href="http://www.netbout.com">Netbout</a> account name</label>
     <br/>
     <input name="netbout" style="width:13em" tabindex="9"
+      data-ng-required="true" required="true"
       placeholder="[a-zA-Z0-9]+" pattern="[a-zA-Z0-9]+"
-      maxlength="50" data-ng-model="netbout" required/><br/>
+      maxlength="50" data-ng-model="netbout"/><br/>
     <span class="help">We use Netbout for non-project discussions
     related to payments, disciplinary actions, ratings, performance
     appraisals, etc. Netbout integrates our management and automated
@@ -131,8 +140,9 @@ Please fill out this form if you want to try.
     <label>Your personality code</label>
     <br/>
     <input name="personality" style="width:9em" tabindex="10"
+      data-ng-required="true" required="true"
       placeholder="[a-zA-Z\-]+" pattern="[a-zA-Z\-]+"
-      maxlength="8" data-ng-model="personality" required/><br/>
+      maxlength="8" data-ng-model="personality"/><br/>
     <span class="help">Please, take
       this <a href="http://www.16personalities.com/">5-minutes test</a>
       to identify your personality profile. They will give you a five-letter
@@ -143,7 +153,8 @@ Please fill out this form if you want to try.
     <label>How do we pay you?</label>
     <br/>
     <input name="wallet" style="width:13em" tabindex="11"
-      maxlength="100" data-ng-model="wallet" required/><br/>
+      data-ng-required="true" required="true"
+      maxlength="100" data-ng-model="wallet"/><br/>
     <span style="float:right">
       <img src="/images/wallet/paypal.png" style="width:50px;height:50px;" alt="PayPal logo"/>
       <img src="/images/wallet/bitcoin.png" style="width:50px;height:50px;" alt="Bitcoin logo"/>
@@ -162,7 +173,8 @@ Please fill out this form if you want to try.
     <label>Tell us briefly about yourself</label>
     <br/>
     <textarea name="info" style="width:100%;height:4em" tabindex="12"
-      data-ng-model="info" required></textarea><br/>
+      data-ng-required="true" required="true"
+      data-ng-model="info"></textarea><br/>
     <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
     and explain briefly why you think you're better than
     others and why we should work with you.
@@ -175,7 +187,8 @@ Please fill out this form if you want to try.
     <label>How did you find us?</label>
     <br/>
     <input name="ref" style="width:11em" tabindex="13"
-      maxlength="200" data-ng-model="ref" required/><br/>
+      data-ng-required="true" required="true"
+      maxlength="200" data-ng-model="ref"/><br/>
     <span class="help">If you have a reference code, post it
       here and the person who gave it to you will receive a bonus
       &mdash; if we hire you :)</span>
