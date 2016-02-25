@@ -30,7 +30,7 @@ angular.module('teamed', []).controller(
           + $scope.skills,
         url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
-          + '&invite=alice&invite=yegor256&rename='
+          + '&invite=alice&rename='
           + encodeURIComponent($scope.github)
           + '&post=' + encodeURIComponent(entry);
         window.location = url;
