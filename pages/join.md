@@ -54,6 +54,11 @@ Please fill out this form if you want to try.
     <input name="name" style="width:17em" tabindex="1"
       data-ng-required="true" required="true"
       maxlength="100" data-ng-model="name"/>
+    <span class="help">Keep this article in mind:
+      Keep in mind that we never work with companies,
+      only with individual freelancers. We never make
+      exceptions to this rule. Here is
+      <a href="http://www.yegor256.com/2015/09/29/mayonnaise.html">why</a>.</span>
   </p>
   <p>
     <label>Hourly rate (in U.S. dollars)</label>
