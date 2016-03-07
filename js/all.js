@@ -1,46 +1,28 @@
 /*globals $:false, window:false, document:false, alert:false */
-function send_email(to, text, success, error) {
+function send_email(text, success, error) {
   'use strict';
   $.ajax(
     {
       type: 'POST',
-      url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+      url: 'http://formspree.io/yegor@teamed.io',
       data: {
-        'key': 'GMfq6HmqFFR4HGCVfIu6Zw',
-        'message': {
-          'from_email': 'site@teamed.io',
-          'to': [
-            {
-              'email': to,
-              'type': 'to'
-            },
-            {
-              'email': 'yegor@teamed.io',
-              'name': 'Yegor Bugayenko',
-              'type': 'cc'
-            }
-          ],
-          'text': 'Hi,\n\n' + text
-            + '\n\nThanks'
-            + '\n\n--\nsent through the form at www.teamed.io',
-          'subject': 'new form submitted (for ' + to + ')',
-          'auto_html': false,
-          'important': true
-        }
+        'message': 'Hi,\n\n' + text
+          + '\n\nThanks'
+          + '\n\n--\nsent through at.teamed.io',
+        '_subject': 'new form submitted',
       },
       success: success,
       error: error
     }
   );
 }
-var email = function(form, email) {
+var email = function(form) {
   'use strict';
   var $form = $(form),
     $button = $form.find('button'),
     before = $button.text(),
     text = '';
   $button.prop('disabled', true).text('processing...');
-  email = typeof email !== 'undefined' ? email : 'join@teamed.io';
   $form.find('input,textarea').each(
     function() {
       var $i = $(this);
@@ -48,7 +30,6 @@ var email = function(form, email) {
     }
   );
   send_email(
-    email,
     text,
     function () {
       $button.text('thanks!');
