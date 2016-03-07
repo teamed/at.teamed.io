@@ -9,7 +9,7 @@ function send_email(text, success, error) {
         'message': 'Hi,\n\n' + text
           + '\n\nThanks'
           + '\n\n--\nsent through at.teamed.io',
-        '_subject': 'new form submitted',
+        '_subject': 'new form submitted'
       },
       success: success,
       error: error
