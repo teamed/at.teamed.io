@@ -29,10 +29,8 @@ as soon as possible. They give you an opportunity to see
 an opportunity to test your task-completion and communication
 skills.
 
-There are six open source projects in the campus now:
+There are a few open source projects in the campus now:
 [jcabi](https://github.com/jcabi),
 [qulice](https://github.com/teamed/qulice),
 [rultor](https://github.com/yegor256/rultor),
-[thindeck](https://github.com/yegor256/thindeck),
-[s3auth](https://github.com/yegor256/s3auth),
-[xembly](https://github.com/yegor256/xembly).
+[takes](https://github.com/yegor256/takes).
