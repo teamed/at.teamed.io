@@ -12,8 +12,8 @@ var email = function(form) {
       data[$i.prop('name')] = $i.val();
     }
   );
-  if (data['name'] !== undefined) {
-    data['_subject'] = data['name'];
+  if (data.name !== undefined) {
+    data._subject = data.name;
   }
   $.ajax(
     {
