@@ -98,7 +98,7 @@ app.controller(
         $scope.k4 = 1.3;
         $scope.e1 = Math.min(1.0, $scope.c / ($scope.k4 * $scope.t)).toFixed(2);
         $scope.e2 = Math.min(1.0, $scope.h / ($scope.k3 * $scope.t)).toFixed(2);
-        $scope.m = (($scope.h * $scope.k1 + $scope.c * $scope.k2) * $scope.e1 * $scope.e2).toFixed(0);
+        $scope.m = Math.min((($scope.h * $scope.k1 + $scope.c * $scope.k2) * $scope.e1 * $scope.e2), 960).toFixed(0);
       }
       $scope.c = 132;
       $scope.t = 169;
