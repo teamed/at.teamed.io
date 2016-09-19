@@ -82,6 +82,8 @@ This is how the bonus is calculated:
   </tbody>
 </table>
 
+Maximum value is 960 minutes (16 hours).
+
 <script>
 var app = angular.module('teamed', []);
 app.controller(
