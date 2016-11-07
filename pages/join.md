@@ -13,6 +13,10 @@ keywords:
   - hire a programmer
 ---
 
+We don't hire anyone at the moment. Please, come back later.
+
+<!--
+
 If you're passionate about software development
 and quality, we want to work with you. You should know,
 though, that our [coding standards](http://www.yegor256.com/2014/08/13/strict-code-quality-control.html)
@@ -213,3 +217,5 @@ Please fill out this form if you want to try.
 </form>
 
 <script src="/js/join.js"></script>
+
+-->
