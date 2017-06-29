@@ -13,7 +13,7 @@ keywords:
   - hire a programmer
 ---
 
-We don't hire anyone at the moment. Please, come back later.
+We're not hiring right now. Please come back later.
 
 <!--
 
