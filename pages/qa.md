@@ -22,7 +22,7 @@ by the type of the ticket they are applicable to.
 When you find some issues in a ticket, make sure the performer
 fixes them first, before giving any mark to him/her. Remember that once
 you give a quality mark, the performer has no motivation any more to fix
-anything, becuase he/she gets the money and walks away.
+anything, because he/she gets the money and walks away.
 You should act as a barrier between the performer and the money.
 Don't rush, let them work a bit and fix all quality problems possible to fix.
 
@@ -67,4 +67,3 @@ All tickets:
 
  * All problems found by the code reviewer were addressed by
    the pull request author.
-
